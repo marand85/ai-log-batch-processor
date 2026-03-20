@@ -161,7 +161,11 @@ View CloudWatch Dashboard:
 ``` bash
 terraform output cloudwatch_dashboard_url
 ```
-
+### ⚠️ Clean Up (Important)
+Always remember to destroy your infrastructure when you are done testing to avoid unexpected AWS charges:
+``` bash
+terraform destroy
+```
 ## Key Features
 
 - **Automated Workflow** - Zero manual intervention required after file upload
@@ -206,7 +210,7 @@ While this architecture is perfect for moderate workloads, for enterprise-scale 
 **Mariusz Andrzejewski**  
 AI Platform Engineer  
 
-- GitHub: https://github.com/marand85
+- GitHub: https://github.com/marand85/ai-log-batch-processor  
 
 ## License
 
