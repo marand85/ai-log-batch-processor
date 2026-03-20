@@ -1,0 +1,15 @@
+# Terraform
+terraform/.terraform/
+terraform/*.tfstate
+terraform/*.tfstate.backup
+terraform/terraform.tfvars
+terraform/lambda.zip
+
+# Python
+**/__pycache__/
+lambda/*.pyc
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/

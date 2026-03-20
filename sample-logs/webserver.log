@@ -1,0 +1,10 @@
+2025-01-16 10:00:01 INFO Server started on port 8080
+2025-01-16 10:00:15 INFO Request GET /api/users 200 45ms
+2025-01-16 10:01:23 WARN Slow query detected: 2500ms
+2025-01-16 10:02:45 ERROR Database connection timeout
+2025-01-16 10:02:46 ERROR Failed to process request: connection refused
+2025-01-16 10:02:47 CRITICAL Service unavailable - all database connections exhausted
+2025-01-16 10:03:00 INFO Attempting reconnection...
+2025-01-16 10:03:15 INFO Database connection restored
+2025-01-16 10:04:00 WARN Memory usage at 85%
+2025-01-16 10:05:00 ERROR OutOfMemoryError in worker thread-12

@@ -1,0 +1,10 @@
+2025-01-16 12:00:00 INFO Security audit started
+2025-01-16 12:01:00 WARN Failed login attempt: user=admin ip=192.168.1.100
+2025-01-16 12:01:30 WARN Failed login attempt: user=admin ip=192.168.1.100
+2025-01-16 12:02:00 WARN Failed login attempt: user=admin ip=192.168.1.100
+2025-01-16 12:02:01 CRITICAL Brute force attack detected: user=admin ip=192.168.1.100
+2025-01-16 12:02:02 INFO IP blocked: 192.168.1.100
+2025-01-16 12:03:00 ERROR Unauthorized API access: token=expired endpoint=/admin
+2025-01-16 12:04:00 WARN SSL certificate expires in 7 days
+2025-01-16 12:05:00 CRITICAL SQL injection attempt detected: input="'; DROP TABLE users;--"
+2025-01-16 12:05:01 INFO Request blocked by WAF rule #42

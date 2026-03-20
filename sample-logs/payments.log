@@ -1,0 +1,10 @@
+2025-01-16 11:00:00 INFO Payment service initialized
+2025-01-16 11:01:30 INFO Payment processed: order-1234 amount=$99.99 status=success
+2025-01-16 11:02:15 WARN Payment retry: order-1235 attempt 2/3
+2025-01-16 11:02:45 ERROR Payment failed: order-1235 reason=card_declined
+2025-01-16 11:03:00 CRITICAL Stripe API connection lost
+2025-01-16 11:03:01 ERROR All payment processing halted
+2025-01-16 11:03:30 INFO Stripe API reconnected
+2025-01-16 11:04:00 WARN Duplicate payment detected: order-1236
+2025-01-16 11:05:00 ERROR Refund failed: order-1237 insufficient_funds
+2025-01-16 11:06:00 INFO Daily payment summary: 150 successful, 12 failed
